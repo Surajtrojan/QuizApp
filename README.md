@@ -4,7 +4,7 @@
 Step by Step-by-step guide to use the application.
 
 1. Clone it in your system.
-2. Create a DB in postgres PgAdmin with the name quizDb.
+2. Create a DB in postgres PgAdmin with the name quizDb and update the application.properties file with the correct db details such as url and password according to your DB.
 3. Run the SpringBoot application from main method which will create the tables in quizDb.
 4. Manually enter the list of questions using the below SQL Insert command. (Initial set of questions):
 5. Create a quiz using below endpoint which takes number of question for the quiz and title of the quiz:
